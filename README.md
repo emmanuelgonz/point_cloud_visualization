@@ -8,19 +8,26 @@ This script allows you to visualize convex hull and/or mesh objects calculated u
   - 'point_cloud'
     - Path to the point cloud to be visualized
 - Flags 
-  - '-c' '--convex_hull' > optional
+  - '-c', '--convex_hull'
+    - Optional
     - Visualize convex hull
-  - '-m' '--mesh' > optional
+  - '-m', '--mesh' > 
+    - Optional
     - Visualize mesh
-  - '-v' '--voxel_size' > float, optional
+  - '-v', '--voxel_size' > 
+    - Optional, float
     - Voxel size to use for downsampling. If not given, point cloud will not be downsampled. 
-  - 'd' '--depth' > float, default=9
+  - 'd', '--depth'
+    - Default=9
     - Depth for Poisson surface reconstruction.
-  - '-w' '--width' > float, default=0
+  - '-w', '--width'
+    - Default=0
     - Width for Poisson surface reconstruction.
-  - '-s' '--scale' > float, default=1.1
+  - '-s', '--scale'
+    - Default=1.1
     - Scale for Poisson surface reconstruction.
-  - '-l' '--linear_fit' > bool, default=False
+  - '-l', '--linear_fit'
+    - Default=False
     - Linear fit for Poisson surface reconstruction.
     
 ## Example 
