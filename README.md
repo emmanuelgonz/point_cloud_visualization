@@ -11,10 +11,10 @@ This script allows you to visualize convex hull and/or mesh objects calculated u
   - '-c', '--convex_hull'
     - Optional
     - Visualize convex hull
-  - '-m', '--mesh' > 
+  - '-m', '--mesh'
     - Optional
     - Visualize mesh
-  - '-v', '--voxel_size' > 
+  - '-v', '--voxel_size'
     - Optional, float
     - Voxel size to use for downsampling. If not given, point cloud will not be downsampled. 
   - 'd', '--depth'
